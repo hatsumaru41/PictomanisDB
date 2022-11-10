@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4880945a-61ce-421f-92f8-5e6f87a9265a" name="Changes" comment="Usuario Fix">
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/util/CORS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Pictograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Pictograma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Resenas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Resenas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -78,6 +82,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Antony/Desktop/GRUPO 02/PictomanisDB&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;99a072494a1c175e97b0860551013370&quot;
   }
 }</component>
@@ -118,15 +127,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4880945a-61ce-421f-92f8-5e6f87a9265a" name="Changes" comment="" />
+      <changelist id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="" />
       <created>1666019526399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666019526399</updated>
       <workItem from="1666578561110" duration="6675000" />
-      <workItem from="1667776050272" duration="94000" />
-      <workItem from="1667970866506" duration="91000" />
-      <workItem from="1668050098056" duration="2590000" />
+      <workItem from="1668052681191" duration="277000" />
+      <workItem from="1668052980507" duration="2288000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666023682416</created>
