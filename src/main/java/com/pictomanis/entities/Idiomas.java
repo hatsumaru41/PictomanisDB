@@ -10,17 +10,14 @@ public class Idiomas {
     private int idIdiomas;
     @Column(name = "nameIdiomas",length = 45,nullable = false)
     private String nameIdiomas;
-    @Column(name = "resenas",length = 45,nullable = false)
-    private String resenas;
 
     public Idiomas(){
 
     }
 
-    public Idiomas(int idIdioma,String nameIdioma,String resena){
+    public Idiomas(int idIdioma,String nameIdioma){
         this.idIdiomas = idIdioma;
         this.nameIdiomas = nameIdioma;
-        this.resenas = resena;
     }
 
     public int getIdIdiomas() {
@@ -39,11 +36,4 @@ public class Idiomas {
         this.nameIdiomas = nameIdiomas;
     }
 
-    public String getResenas() {
-        return resenas;
-    }
-
-    public void setResenas(String resenas) {
-        this.resenas = resenas;
-    }
 }

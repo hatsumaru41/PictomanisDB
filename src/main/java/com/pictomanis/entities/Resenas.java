@@ -13,14 +13,27 @@ public class Resenas {
     @Column(name = "descripcionResenas",length = 255,nullable = false)
     private String descripcionResenas;
 
+    @ManyToOne
+    @JoinColumn(name = "idIdiomas", nullable = false)
+    private Idiomas idiomas;
+
     public Resenas(){
 
     }
 
-    public Resenas(int idResenas,String nameResenas,String descripcionResenas){
+    public Resenas(int idResenas, String nameResenas, String descripcionResenas, Idiomas idiomas) {
         this.idResenas = idResenas;
         this.nameResenas = nameResenas;
         this.descripcionResenas = descripcionResenas;
+        this.idiomas = idiomas;
+    }
+
+    public Idiomas getIdiomas() {
+        return idiomas;
+    }
+
+    public void setIdiomas(Idiomas idiomas) {
+        this.idiomas = idiomas;
     }
 
     public int getIdResenas() {
