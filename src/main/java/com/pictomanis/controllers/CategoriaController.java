@@ -9,7 +9,7 @@ import java.text.ParseException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/categorias")
+@RequestMapping("/categoria")
 public class
 CategoriaController {
     @Autowired
