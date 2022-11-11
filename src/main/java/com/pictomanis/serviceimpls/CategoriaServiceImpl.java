@@ -27,6 +27,21 @@ public class CategoriaServiceImpl implements ICategoriaService {
     public void delete(int idCategoria){
         cR.deleteById(idCategoria);
     }
+
+    @Override
+    public Optional<Categoria> listId(int idCategoria){
+        return Optional.of(cR.findById(idCategoria).orElse(new Categoria()));
+    }
+
+    @Override
+    public List<Categoria> findName(String nameCategoria){
+        return cR.findName(nameCategoria);
+    }
+
+    @Override
+    public void delete(int idCategoria){
+        cR.deleteById(idCategoria);
+    }
     @Override
     public Optional<Categoria> listId(int idCategoria){
         return Optional.of(cR.findById(idCategoria).orElse(new Categoria()));
