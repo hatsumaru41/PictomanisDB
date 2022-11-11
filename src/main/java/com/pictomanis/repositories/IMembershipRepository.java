@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface IMembershipRepository extends JpaRepository<Membership,Integer> {
-    @Query("from Membership m where m.nameMembership like %:nameMembership")
+    @Query("from Membership m where m.nameMembership like %:nameMembership%")
     List<Membership> findName(@Param("nameMembership") String nameMembership);
 }

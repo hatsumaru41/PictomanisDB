@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface ICategoriaRepository extends JpaRepository<Categoria,Integer> {
-    @Query("from Categoria c where c.nameCategoria like %:nameCategoria")
+    @Query("from Categoria c where c.nameCategoria like %:nameCategoria$")
     List<Categoria> findName(@Param("nameCategoria") String nameCategoria);
 }

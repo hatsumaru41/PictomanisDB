@@ -1,49 +1,56 @@
 package com.pictomanis.entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "Idiomas")
-public class Idiomas {
+public class Idiomas implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idIdioma;
-    @Column(name = "nameIdioma",length = 45,nullable = false)
-    private String nameIdioma;
-    @Column(name = "resena",length = 45,nullable = false)
-    private String resena;
+    private int idIdiomas;
+    @Column(name = "nameIdiomas",length = 45,nullable = false)
+    private String nameIdiomas;
+
+    @ManyToOne
+    @JoinColumn(name = "idResenas",nullable = false)
+    private Resenas idResenas;
+
 
     public Idiomas(){
 
     }
 
-    public Idiomas(int idIdioma,String nameIdioma,String resena){
-        this.idIdioma = idIdioma;
-        this.nameIdioma = nameIdioma;
-        this.resena = resena;
+    public Idiomas(int idIdiomas, String nameIdiomas, Resenas idResenas) {
+        this.idIdiomas = idIdiomas;
+        this.nameIdiomas = nameIdiomas;
+        this.idResenas = idResenas;
     }
 
-    public int getIdIdioma() {
-        return idIdioma;
+    public Resenas getIdResenas() {
+        return idResenas;
     }
 
-    public void setIdIdioma(int idIdioma) {
-        this.idIdioma = idIdioma;
+    public void setIdResenas(Resenas idResenas) {
+        this.idResenas = idResenas;
     }
 
-    public String getNameIdioma() {
-        return nameIdioma;
+    public int getIdIdiomas() {
+        return idIdiomas;
     }
 
-    public void setNameIdioma(String nameIdioma) {
-        this.nameIdioma = nameIdioma;
+    public void setIdIdiomas(int idIdiomas) {
+        this.idIdiomas = idIdiomas;
     }
 
-    public String getResena() {
-        return resena;
+    public String getNameIdiomas() {
+        return nameIdiomas;
     }
 
-    public void setResena(String resena) {
-        this.resena = resena;
+    public void setNameIdiomas(String nameIdiomas) {
+        this.nameIdiomas = nameIdiomas;
     }
+
 }

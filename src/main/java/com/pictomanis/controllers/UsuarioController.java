@@ -14,14 +14,22 @@ public class UsuarioController {
     @Autowired
     private IUsuarioService uService;
     @PostMapping
-    public void registrar(@RequestBody Usuario u) {uService.insert(u);}
+    public void registrar(@RequestBody Usuario u) {
+        uService.insert(u);
+    }
     @GetMapping
-    public List<Usuario> list() {return uService.list();}
+    public List<Usuario> list() {
+        return uService.list();
+    }
     @PutMapping
-    public void update(@RequestBody Usuario u) {uService.insert(u);}
+    public void update(@RequestBody Usuario u) {
+        uService.insert(u);
+    }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable("id") Integer id) {uService.delete(id);}
+    public void delete(@PathVariable("id") Integer id) {
+        uService.delete(id);
+    }
     @PostMapping("/find")
     public List<Usuario> findName(@RequestBody Usuario us) throws ParseException{
         List<Usuario> listUsuario;

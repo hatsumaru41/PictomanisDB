@@ -14,15 +14,21 @@ public class RolController {
     @Autowired
     private IRolService roService;
     @PostMapping
-    public void registrar(@RequestBody Rol ro) {roService.insert(ro);}
+    public void registrar(@RequestBody Rol ro) {
+        roService.insert(ro);
+    }
     @GetMapping
-    public List<Rol> list() {return roService.list();}
-
+    public List<Rol> list() {
+        return roService.list();
+    }
     @PutMapping
-    public void update(@RequestBody Rol ro) {roService.insert(ro);}
-
+    public void update(@RequestBody Rol ro) {
+        roService.insert(ro);
+    }
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable("id") Integer id) {roService.delete(id);}
+    public void delete(@PathVariable("id") Integer id) {
+        roService.delete(id);
+    }
     @PostMapping("/find")
     public List<Rol> findName(@RequestBody Rol ro) throws ParseException {
         List<Rol> listRol;

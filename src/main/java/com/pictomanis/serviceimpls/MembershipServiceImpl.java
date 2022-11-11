@@ -37,5 +37,4 @@ public class MembershipServiceImpl implements IMembershipService {
     public List<Membership> findName(String nameMembership){
         return mR.findName(nameMembership);
     }
-
 }

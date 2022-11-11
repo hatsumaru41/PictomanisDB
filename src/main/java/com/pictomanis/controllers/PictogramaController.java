@@ -14,7 +14,9 @@ public class PictogramaController {
     @Autowired
     private IPictogramaService pService;
     @PostMapping
-    public void registrar(@RequestBody Pictograma p) {pService.insert(p);}
+    public void registrar(@RequestBody Pictograma p) {
+        pService.insert(p);
+    }
     @GetMapping
     public List<Pictograma> list() {
         return pService.list();

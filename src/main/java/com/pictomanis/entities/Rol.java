@@ -8,8 +8,8 @@ public class Rol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idRol;
-    @Column(name = "rolName",length = 45,nullable = false)
-    private String rolName;
+    @Column(name = "nameRol",length = 45,nullable = false)
+    private String nameRol;
 
     public Rol(){
 
@@ -17,7 +17,7 @@ public class Rol {
 
     public Rol(int idRol,String rolName){
         this.idRol = idRol;
-        this.rolName = rolName;
+        this.nameRol = rolName;
     }
 
     public int getIdRol() {
@@ -29,10 +29,10 @@ public class Rol {
     }
 
     public String getNameRol() {
-        return rolName;
+        return nameRol;
     }
 
     public void setNameRol(String rolName) {
-        this.rolName = rolName;
+        this.nameRol = rolName;
     }
 }

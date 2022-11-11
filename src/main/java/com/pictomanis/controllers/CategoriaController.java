@@ -32,7 +32,6 @@ CategoriaController {
     public void delete(@PathVariable("id") Integer id){
         cService.delete(id);
     }
-
     @PostMapping("/find")
     public List<Categoria> findName(@RequestBody Categoria cs) throws ParseException{
         List<Categoria> listCategoria;
@@ -40,5 +39,4 @@ CategoriaController {
         listCategoria = cService.findName(cs.getNameCategoria());
         return listCategoria;
     }
-
 }

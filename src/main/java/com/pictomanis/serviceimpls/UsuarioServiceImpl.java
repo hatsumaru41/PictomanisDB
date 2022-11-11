@@ -13,13 +13,19 @@ public class UsuarioServiceImpl implements IUsuarioService {
     @Autowired
     private IUsuarioRepository uR;
     @Override
-    public void insert(Usuario usuario){uR.save(usuario);}
+    public void insert(Usuario usuario){
+        uR.save(usuario);
+    }
 
     @Override
-    public List<Usuario> list(){return uR.findAll();}
+    public List<Usuario> list(){
+        return uR.findAll();
+    }
 
     @Override
-    public void delete(int idUsuario) {uR.deleteById(idUsuario);}
+    public void delete(int idUsuario) {
+        uR.deleteById(idUsuario);
+    }
 
     @Override
     public Optional<Usuario> listId(int idUsuario){

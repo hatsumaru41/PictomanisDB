@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface IPictogramaRepository extends JpaRepository<Pictograma,Integer> {
-    @Query("from Pictotrama p where p.namePictograma like %:namePictograma")
+    @Query("from Pictograma p where p.namePictograma like %:namePictograma%")
     List<Pictograma> findName(@Param("namePictograma") String namePictograma);
 }
