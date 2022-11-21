@@ -13,41 +13,29 @@ import java.util.Optional;
 public class CategoriaServiceImpl implements ICategoriaService {
     @Autowired
     private ICategoriaRepository cR;
+
     @Override
     public void insert(Categoria categoria) {
         cR.save(categoria);
     }
 
     @Override
-    public List<Categoria> list(){
+    public List<Categoria> list() {
         return cR.findAll();
     }
 
     @Override
-    public void delete(int idCategoria){
+    public void delete(int idCategoria) {
         cR.deleteById(idCategoria);
     }
 
     @Override
-    public Optional<Categoria> listId(int idCategoria){
+    public Optional<Categoria> listId(int idCategoria) {
         return Optional.of(cR.findById(idCategoria).orElse(new Categoria()));
     }
 
     @Override
-    public List<Categoria> findName(String nameCategoria){
-        return cR.findName(nameCategoria);
-    }
-
-    @Override
-    public void delete(int idCategoria){
-        cR.deleteById(idCategoria);
-    }
-    @Override
-    public Optional<Categoria> listId(int idCategoria){
-        return Optional.of(cR.findById(idCategoria).orElse(new Categoria()));
-    }
-    @Override
-    public List<Categoria> findName(String nameCategoria){
+    public List<Categoria> findName(String nameCategoria) {
         return cR.findName(nameCategoria);
     }
 }
