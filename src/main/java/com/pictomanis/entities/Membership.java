@@ -12,7 +12,6 @@ public class Membership {
     private String nameMembership;
     @Column(name = "type",length = 35,nullable = false)
     private String type;
-
     public Membership(){
 
     }
