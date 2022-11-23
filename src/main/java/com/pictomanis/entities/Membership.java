@@ -14,6 +14,7 @@ public class Membership {
     private String type;
     public Membership(){
 
+
     }
 
     public Membership(int idMembership,String nameMiembro,String type){
