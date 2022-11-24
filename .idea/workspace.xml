@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/MembershipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/MembershipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/MembershipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/MembershipServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IMembershipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IMembershipService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +141,8 @@
       <workItem from="1668056820592" duration="910000" />
       <workItem from="1668057985223" duration="650000" />
       <workItem from="1669243439117" duration="1788000" />
-      <workItem from="1669245957697" duration="2854000" />
+      <workItem from="1669245957697" duration="2903000" />
+      <workItem from="1669248906588" duration="2233000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666023682416</created>
