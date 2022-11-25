@@ -36,5 +36,9 @@ public class PictogramaController {
         listPictograma = pService.findName(ps.getNamePictograma());
         return listPictograma;
     }
+    @GetMapping("/CategoryOfPic")
+    public List<Pictograma> CatPic(){
+        return pService.CatPic();
+    }
 
 }

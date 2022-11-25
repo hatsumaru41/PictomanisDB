@@ -11,4 +11,5 @@ public interface IPictogramaService {
     public void delete(int idPictograma);
     public Optional<Pictograma> listId(int idPictograma);
     List<Pictograma> findName(String namePictograma);
+    List<Pictograma> CatPic();
 }
