@@ -6,34 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/CategoriaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/CategoriaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/IdiomasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/IdiomasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IIdiomasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IIdiomasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IIdiomasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IIdiomasService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="com.haulmont.jpb.NewInterface" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -48,62 +31,22 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2GGeooNqBXACwMvPRnBs4km01AI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Antony/Desktop/GRUPO 02/PictomanisDB&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;99a072494a1c175e97b0860551013370&quot;
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PictomanisApplication">
-    <configuration name="PictomanisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pictomanis.PictomanisApplication" />
-      <module name="Pictomanis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pictomanis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="PictomanisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Pictomanis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pictomanis.PictomanisApplication" />
@@ -119,120 +62,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PictomanisApplication" />
+        <item itemvalue="Spring Boot.PictomanisApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="" />
-      <created>1666019526399</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1666019526399</updated>
-      <workItem from="1666578561110" duration="6675000" />
-      <workItem from="1668052681191" duration="277000" />
-      <workItem from="1668052980507" duration="2288000" />
-      <workItem from="1668056820592" duration="910000" />
-      <workItem from="1668057985223" duration="650000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1666023682416</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666023682416</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Service Impl">
-      <created>1666025770571</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666025770571</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Controllers">
-      <created>1666395398601</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1666395398601</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Swagger">
-      <created>1666395989959</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666395989959</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Orden Memberships">
-      <created>1666574940674</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666574940674</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Resenas service y repository">
-      <created>1666580896826</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1666580896826</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Resenas controller, resenas repository, rol service, rol controller y rol implement">
-      <created>1666584280726</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666584280726</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Repository Fix">
-      <created>1666608920923</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666608920923</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Categoria Fix">
-      <created>1666609856753</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1666609856753</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Idiomas Fix">
-      <created>1666610327764</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1666610327764</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Pictograma Controller Fix">
-      <created>1666610675293</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1666610675293</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Rol Fix">
-      <created>1666611009014</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1666611009014</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Usuario Fix">
-      <created>1666611174036</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1666611174036</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -244,44 +79,10 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="hiro" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="876c19b7-e1af-4138-88bc-bcaaadf5091c" value="TOOL_WINDOW" />
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial Commit" />
-    <MESSAGE value="Service Impl" />
-    <MESSAGE value="Controllers" />
-    <MESSAGE value="Swagger" />
-    <MESSAGE value="Orden Memberships" />
-    <MESSAGE value="Resenas service y repository" />
-    <MESSAGE value="Resenas controller, resenas repository, rol service, rol controller y rol implement" />
-    <MESSAGE value="Repository Fix" />
-    <MESSAGE value="Categoria Fix" />
-    <MESSAGE value="Idiomas Fix" />
-    <MESSAGE value="Pictograma Controller Fix" />
-    <MESSAGE value="Rol Fix" />
-    <MESSAGE value="Usuario Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usuario Fix" />
   </component>
 </project>

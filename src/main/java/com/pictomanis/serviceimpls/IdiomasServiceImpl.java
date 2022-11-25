@@ -1,6 +1,7 @@
 package com.pictomanis.serviceimpls;
 
 import com.pictomanis.entities.Idiomas;
+import com.pictomanis.entities.Usuario;
 import com.pictomanis.repositories.IIdiomasRepository;
 import com.pictomanis.serviceinterfaces.IIdiomasService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,5 +33,9 @@ public class IdiomasServiceImpl implements IIdiomasService {
     @Override
     public List<Idiomas> findName(String nameIdiomas){
         return iR.findName(nameIdiomas);
+    }
+    @Override
+    public List<Idiomas> CallResena() {
+        return iR.TypeOfResena();
     }
 }

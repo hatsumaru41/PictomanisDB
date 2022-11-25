@@ -12,4 +12,7 @@ import java.util.List;
 public interface IUsuarioRepository extends JpaRepository<Usuario,Integer> {
     @Query("from Usuario u where u.nameUsuario like %:nameUsuario%")
     List<Usuario> findName(@Param("nameUsuario") String nameUsuario);
+
+    @Query(value = "SELECT*from usuario u JOIN membership m ON m.id_membership = u.id_membership WHERE m.\"type\" = 'Anual'",nativeQuery = true)
+    List<Usuario> TypeOfMembership();
 }

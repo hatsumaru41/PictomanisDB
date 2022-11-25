@@ -11,4 +11,5 @@ public interface IMembershipService{
     public void delete(int idMembership);
     public Optional<Membership> listId(int idMembership);
     List<Membership> findName(String nameMembership);
+    public Optional<Membership> findMembershipByID(int idMembership);
 }

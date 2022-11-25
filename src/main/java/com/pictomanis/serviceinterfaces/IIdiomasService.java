@@ -11,4 +11,5 @@ public interface IIdiomasService {
     public void delete(int idIdiomas);
     public Optional<Idiomas> listId(int idIdiomas);
     List<Idiomas> findName(String nameIdiomas);
+    List<Idiomas> CallResena();
 }
