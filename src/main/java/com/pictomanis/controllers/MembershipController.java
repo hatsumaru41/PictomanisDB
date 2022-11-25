@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.text.ParseException;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/membership")
@@ -37,4 +38,6 @@ public class MembershipController {
         listMembership = mService.findName(ms.getNameMembership());
         return listMembership;
     }
+    @GetMapping("/{id}")
+    public Optional<Membership> listarID(@PathVariable("id") Integer id){return mService.findMembershipByID(id);}
 }

@@ -37,4 +37,9 @@ public class MembershipServiceImpl implements IMembershipService {
     public List<Membership> findName(String nameMembership){
         return mR.findName(nameMembership);
     }
+
+    @Override
+    public Optional<Membership> findMembershipByID(int idMembership) {
+        return Optional.of(mR.findById(idMembership).orElse(new Membership()));
+    }
 }
