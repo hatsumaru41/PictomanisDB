@@ -23,30 +23,13 @@ public class Pictograma implements Serializable {
     private Categoria idCategoria;
 
 
-    public Pictograma(){
-
+    public Pictograma() {
     }
 
     public Pictograma(int idPictograma, String namePictograma, Usuario idUsuario, Categoria idCategoria) {
         this.idPictograma = idPictograma;
         this.namePictograma = namePictograma;
         this.idUsuario = idUsuario;
-        this.idCategoria = idCategoria;
-    }
-
-    public Usuario getIdUsuario() {
-        return idUsuario;
-    }
-
-    public void setIdUsuario(Usuario idUsuario) {
-        this.idUsuario = idUsuario;
-    }
-
-    public Categoria getIdCategoria() {
-        return idCategoria;
-    }
-
-    public void setIdCategoria(Categoria idCategoria) {
         this.idCategoria = idCategoria;
     }
 
@@ -66,5 +49,19 @@ public class Pictograma implements Serializable {
         this.namePictograma = namePictograma;
     }
 
+    public Usuario getIdUsuario() {
+        return idUsuario;
+    }
 
+    public void setIdUsuario(Usuario idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
+    public Categoria getIdCategoria() {
+        return idCategoria;
+    }
+
+    public void setIdCategoria(Categoria idCategoria) {
+        this.idCategoria = idCategoria;
+    }
 }
