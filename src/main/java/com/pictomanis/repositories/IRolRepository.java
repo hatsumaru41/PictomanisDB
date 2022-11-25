@@ -12,4 +12,6 @@ import java.util.List;
 public interface IRolRepository extends JpaRepository<Rol,Integer> {
     @Query("from Rol r where r.nameRol like %:nameRol%")
     List<Rol> findName(@Param("nameRol") String nameRol);
+    @Query(value = "SELECT*FROM usuario u JOIN rol r ON r.id_rol = u.id_rol WHERE r.name_rol = 'Admin'", nativeQuery = true)
+    List<Rol> TypeOfRol();
 }

@@ -12,4 +12,6 @@ import java.util.List;
 public interface IPictogramaRepository extends JpaRepository<Pictograma,Integer> {
     @Query("from Pictograma p where p.namePictograma like %:namePictograma%")
     List<Pictograma> findName(@Param("namePictograma") String namePictograma);
+    @Query(value = "SELECT*FROM pictograma p JOIN categoria c ON c.id_categoria = p.id_categoria WHERE c.name_categoria = 'Transito'",nativeQuery = true)
+    List<Pictograma> CategoryOfPic();
 }

@@ -37,4 +37,9 @@ public class PictogramaServiceImpl implements IPictogramaService {
     public List<Pictograma> findName(String namePictograma){
         return pR.findName(namePictograma);
     }
+
+    @Override
+    public List<Pictograma> CatPic() {
+        return pR.CategoryOfPic();
+    }
 }

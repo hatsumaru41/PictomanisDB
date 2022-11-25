@@ -33,4 +33,9 @@ public class RolServiceImpl implements IRolService {
     public List<Rol> findName(String nameRol) {
         return roR.findName(nameRol);
     }
+
+    @Override
+    public List<Rol> CallRoll() {
+        return roR.TypeOfRol();
+    }
 }

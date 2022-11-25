@@ -36,4 +36,8 @@ public class RolController {
         listRol = roService.findName(ro.getNameRol());
         return listRol;
     }
+    @GetMapping("/TypeOfRol")
+    public List<Rol> CallRol(){
+        return roService.CallRoll();
+    }
 }
