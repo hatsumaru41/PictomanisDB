@@ -42,7 +42,7 @@ public class Usuario implements Serializable {
     public Usuario(int idUsuario, String nameUsuario, String lastName, int numberUsuario, String emailUsuario, String passwordUsuario, Rol rol, Membership membership) {
         this.idUsuario = idUsuario;
         this.member = member;
-        Role = role;
+        Role = rol;
         this.nameUsuario = nameUsuario;
         this.lastName = lastName;
         this.numberUsuario = numberUsuario;
