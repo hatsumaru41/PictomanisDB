@@ -32,4 +32,5 @@ public class ResenasController {
     public List<Resenas> findName(@RequestBody Resenas rs) {
         return  rService.findName(rs.getNameResenas());
     }
+
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix" />
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +88,8 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "99a072494a1c175e97b0860551013370"
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PictomanisApplication">
+}</component>
+  <component name="RunManager" selected="Spring Boot.PictomanisApplication">
     <configuration name="PictomanisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pictomanis.PictomanisApplication" />
       <module name="Pictomanis" />
@@ -116,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PictomanisApplication" />
         <item itemvalue="Application.PictomanisApplication" />
       </list>
     </recent_temporary>
@@ -133,6 +136,9 @@
       <workItem from="1668052980507" duration="2288000" />
       <workItem from="1668056820592" duration="910000" />
       <workItem from="1668057985223" duration="650000" />
+      <workItem from="1669243439117" duration="1788000" />
+      <workItem from="1669245957697" duration="2903000" />
+      <workItem from="1669248906588" duration="4029000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666023682416</created>

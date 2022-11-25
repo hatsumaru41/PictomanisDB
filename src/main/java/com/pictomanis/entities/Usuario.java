@@ -16,19 +16,27 @@ public class Usuario {
     private Rol Role;
     @Column(name = "nameUsuario", length = 45,nullable = false)
     private String nameUsuario;
-    @Column(name = "lastName",length = 35, nullable = false)
+    @Column(name = "lastName", length = 35, nullable = false)
     private String lastName;
-    @Column(name = "numberUsuario",length = 10,nullable = false)
+    @Column(name = "numberUsuario", length = 10, nullable = false)
     private int numberUsuario;
-    @Column(name = "emailUsuario",length = 35, nullable = false)
+    @Column(name = "emailUsuario", length = 35, nullable = false)
     private String emailUsuario;
-    @Column(name = "passwordUsuario",length = 45,nullable = false)
+    @Column(name = "passwordUsuario", length = 45, nullable = false)
     private String passwordUsuario;
+    
+    @ManyToOne
+    @JoinColumn(name = "idRol", nullable = false)
+    private Rol rol;
+    @ManyToOne
+    @JoinColumn(name = "idMembership", nullable = false)
+    private Membership membership;
 
     public Usuario() {
+    super();
     }
 
-    public Usuario(int idUsuario, Membership member, Rol role, String nameUsuario, String lastName, int numberUsuario, String emailUsuario, String passwordUsuario) {
+    public Usuario(int idUsuario, String nameUsuario, String lastName, int numberUsuario, String emailUsuario, String passwordUsuario, Rol rol, Membership membership) {
         this.idUsuario = idUsuario;
         this.member = member;
         Role = role;
@@ -37,6 +45,8 @@ public class Usuario {
         this.numberUsuario = numberUsuario;
         this.emailUsuario = emailUsuario;
         this.passwordUsuario = passwordUsuario;
+        this.rol = rol;
+        this.membership = membership;
     }
 
     public int getIdUsuario() {
@@ -102,4 +112,25 @@ public class Usuario {
     public void setPasswordUsuario(String passwordUsuario) {
         this.passwordUsuario = passwordUsuario;
     }
+
+    public Rol getRol() {
+        return rol;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
+    }
+
+    public Membership getMembership() {
+        return membership;
+    }
+
+    public void setMembership(Membership membership) {
+        this.membership = membership;
+    }
 }
+
+
+
+
+
