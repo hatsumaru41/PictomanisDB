@@ -1,6 +1,7 @@
 package com.pictomanis.controllers;
 
 import com.pictomanis.entities.Idiomas;
+import com.pictomanis.entities.Usuario;
 import com.pictomanis.serviceinterfaces.IIdiomasService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -32,4 +33,6 @@ public class IdiomasController {
     public List<Idiomas> findName(@RequestBody Idiomas is){
         return iService.findName(is.getNameIdiomas());
     }
+    @GetMapping("/TypeOfResena")
+    public List<Idiomas> CallResena(){return iService.CallResena();}
 }
