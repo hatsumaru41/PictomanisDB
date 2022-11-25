@@ -8,7 +8,13 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idUsuario;
-    @Column(name = "nameUsuario", length = 45, nullable = false)
+    @ManyToOne
+    @JoinColumn(name = "Membership_id", nullable = false)
+    private Membership member;
+    @ManyToOne
+    @JoinColumn(name = "Role_id", nullable = false)
+    private Rol Role;
+    @Column(name = "nameUsuario", length = 45,nullable = false)
     private String nameUsuario;
     @Column(name = "lastName", length = 35, nullable = false)
     private String lastName;
@@ -18,7 +24,7 @@ public class Usuario {
     private String emailUsuario;
     @Column(name = "passwordUsuario", length = 45, nullable = false)
     private String passwordUsuario;
-
+    
     @ManyToOne
     @JoinColumn(name = "idRol", nullable = false)
     private Rol rol;
@@ -32,6 +38,8 @@ public class Usuario {
 
     public Usuario(int idUsuario, String nameUsuario, String lastName, int numberUsuario, String emailUsuario, String passwordUsuario, Rol rol, Membership membership) {
         this.idUsuario = idUsuario;
+        this.member = member;
+        Role = role;
         this.nameUsuario = nameUsuario;
         this.lastName = lastName;
         this.numberUsuario = numberUsuario;
@@ -47,6 +55,22 @@ public class Usuario {
 
     public void setIdUsuario(int idUsuario) {
         this.idUsuario = idUsuario;
+    }
+
+    public Membership getMember() {
+        return member;
+    }
+
+    public void setMember(Membership member) {
+        this.member = member;
+    }
+
+    public Rol getRole() {
+        return Role;
+    }
+
+    public void setRole(Rol role) {
+        Role = role;
     }
 
     public String getNameUsuario() {
