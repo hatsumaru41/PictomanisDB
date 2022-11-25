@@ -1,29 +1,25 @@
 package com.pictomanis.entities;
-
 import javax.persistence.*;
 import java.io.Serializable;
-
 @Entity
 @Table(name = "Pictograma")
 public class Pictograma implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idPictograma;
     @Column(name = "namePictograma",length = 45,nullable = false)
     private String namePictograma;
-
     @ManyToOne
     @JoinColumn(name = "idUsuario",nullable = false)
     private Usuario idUsuario;
-
     @ManyToOne
     @JoinColumn(name = "idCategoria",nullable = false)
     private Categoria idCategoria;
 
 
-    public Pictograma() {
+    public Pictograma(){
+
     }
 
     public Pictograma(int idPictograma, String namePictograma, Usuario idUsuario, Categoria idCategoria) {
@@ -65,3 +61,4 @@ public class Pictograma implements Serializable {
         this.idCategoria = idCategoria;
     }
 }
+
