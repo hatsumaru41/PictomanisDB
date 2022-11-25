@@ -37,4 +37,7 @@ public class UsuarioController {
         listUsuario = uService.findName(us.getNameUsuario());
         return listUsuario;
     }
+    @GetMapping("/TipeOfMembership")
+    public List<Usuario> CallMembership(){return uService.CallMembership();}
+
 }

@@ -36,4 +36,11 @@ public class UsuarioServiceImpl implements IUsuarioService {
     public List<Usuario> findName(String nameUsuario){
         return uR.findName(nameUsuario);
     }
+
+    @Override
+    public List<Usuario> CallMembership() {
+        return uR.TypeOfMembership();
+    }
+
+
 }

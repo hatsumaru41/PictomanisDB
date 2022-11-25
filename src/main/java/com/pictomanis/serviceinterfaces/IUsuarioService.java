@@ -12,5 +12,5 @@ public interface IUsuarioService{
     public void delete(int idUsuario);
     public Optional<Usuario> listId(int idUsuario);
     List<Usuario> findName(String nameUsuario);
-
+    List<Usuario> CallMembership();
 }
